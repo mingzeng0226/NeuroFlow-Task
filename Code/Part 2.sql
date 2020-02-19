@@ -1,6 +1,6 @@
 
 
-#‘’ Question 1: How many users completed an exercise in their first month per monthly cohort‘’
+\* Question 1: How many users completed an exercise in their first month per monthly cohort */
 
 SELECT months,
 
