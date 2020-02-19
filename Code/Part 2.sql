@@ -1,6 +1,6 @@
 
 
-# Question 1: How many users completed an exercise in their first month per monthly cohort
+#‘’ Question 1: How many users completed an exercise in their first month per monthly cohort‘’
 
 SELECT months,
 
@@ -23,7 +23,7 @@ SELECT months,
  ) AS a
  GROUP BY months
 
-# Question 2: finds the top five organizations that have the highest average phq9 score per patient.
+# ‘’Question 2: finds the top five organizations that have the highest average phq9 score per patient.‘’
 
 SELECT p.organization_name,AVG(score),COUNT(score) AS num_patients FROM providers p
 JOIN phq9 pro 
